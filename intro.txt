@@ -1,0 +1,24 @@
+automated testing - with automated code we write some extra code that runs and test our code, since we write code that automatically we can test everything no matter what you changed because you will aotomatically test your entire application
+
+DIFFERENT TYPE OF AUTOMATATED TESTING 
+1> unit test - test the individual building blog such as function or a component, conatin a lot of unit test
+
+2> integration test - test the combination of multiple building block, a project typically contain a couple of integration tests
+
+3> End-to-End test - testing entire scenarios in your app, project typically contain only few End-to-End test
+
+What to test?(Which kind of code we should  put into your testing code)
+Ans - we wanna test the small building block, so that we have small focused tests
+
+
+Required tools and setup - 
+1> tool for running our test and asserting the result. We we "jest"
+2> tool fore rendering our react app/component. We use "react testing library"
+NOTE: Both Jest and React-Testing-library are already set up if we use Create-react-app to a make a project
+
+we will be working in App.test.js and setupTest.js file
+
+
+all the test belonging to one features or one component can be grouped into one teting suite and we can create such a testing suie by using global "describe" function
+
+describe function accept two argument first is a description and this a description of the category and the second arumnet is a anomaoys function where we write testing code itself
