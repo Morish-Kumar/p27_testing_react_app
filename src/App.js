@@ -20,6 +20,7 @@ function App() {
         </a>
       </header> */}
       <Greeting/>
+      <Greeting/>
     </div>
   );
 }
